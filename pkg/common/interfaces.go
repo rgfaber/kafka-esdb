@@ -12,7 +12,7 @@ type Snapshot struct {
 }
 
 type ILoad interface {
-	Loads(events []Event) error
+	Load(events []Event) error
 }
 
 type IApply interface {
